@@ -1,0 +1,30 @@
+{
+  "name": "67_vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "axios": "^1.1.2",
+    "bootstrap-vue-3": "^0.3.11",
+    "sweetalert": "^2.1.2",
+    "vee-validate": "^4.7.0",
+    "vue": "^3.2.40",
+    "vue-router": "^4.1.5",
+    "vuelidate": "^0.7.7"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.0.9"
+  }
+}
